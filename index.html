@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Boxes with numbers side by side -->
+    <div class="box-div">
+    </div>
+
+    <!-- Random number button -->
+    <button class="random-button">Start Game</button>
+
+    <!-- Display generated number here -->
+    <span class="random-number" id="random-display"></span>
+
+    <span class="countdown-timer" id="countdown-display"></span>
+
+    <!-- Generate ticket button -->
+    <button class="ticket-button">Generate Ticket</button>
+
+    <div class="ticket-container">
+
+    </div>
+
+    <div class="popup-container" id="winnerPopup">
+        <div class="popup">
+            <h2>Congratulations!</h2>
+            <p id="winnerText"></p>
+            <button id="closePopup">Close</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
