@@ -99,8 +99,25 @@
             width: 300px;
             background-color: #fff;
             padding: 10px;
-            border: 2px solid #000;
+            border: 0px solid #000;
+            background: #fbfbfb;
+            box-shadow: 2px 2px 15px 0px #ab9b0d;
         }
+        .tambola-ticket:before, .tambola-ticket:after {
+            content: "";
+            position: absolute;
+            left: 5px;
+            height: 6px;
+            width: 290px;
+          }
+          .tambola-ticket:before {
+            top: -5px;
+            background: radial-gradient(circle, transparent, transparent 50%, #fbfbfb 50%, #fbfbfb 100%) -7px -8px/16px 16px repeat-x;
+          }
+          .tambola-ticket:after {
+            bottom: -5px;
+            background: radial-gradient(circle, transparent, transparent 50%, #fbfbfb 50%, #fbfbfb 100%) -7px -2px/16px 16px repeat-x;
+          }
 
         .tambola-number-box {
             display: flex;
@@ -108,8 +125,8 @@
             justify-content: center;
             width: 80px;
             height: 80px;
-            background-color: #f2f2f2;
-            border: 2px solid #000;
+            background-color: #eee;
+            border: 0px solid #000;
             font-size: 20px;
             /* Increased font size for better readability */
             font-weight: bold;
