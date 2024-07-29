@@ -112,7 +112,7 @@
           }
           .tambola-ticket:before {
             /* top: -5px; */
-            background: radial-gradient(circle, transparent, transparent 50%, #f000 50%, #000 100%) -7px -8px/16px 16px repeat-x;
+            background: radial-gradient(circle, transparent, transparent 50%, #000 50%, #000 100%) -7px -8px/16px 16px repeat-x;
           }
           .tambola-ticket:after {
             bottom: -200px;
