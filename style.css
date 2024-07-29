@@ -90,6 +90,7 @@
             border: 1px solid #ddd;
             text-align: center;
             font-family: Arial, sans-serif;
+            background: #ddd;
         }
 
         .tambola-ticket {
@@ -106,17 +107,19 @@
         .tambola-ticket:before, .tambola-ticket:after {
             content: "";
             position: absolute;
-            left: 5px;
+            left: 140px;
             height: 6px;
             width: 305px;
           }
           .tambola-ticket:before {
             /* top: -5px; */
-            background: radial-gradient(circle, transparent, transparent 50%, #000 50%, #000 100%) -7px -8px/16px 16px repeat-x;
-          }
+            background: radial-gradient(circle, transparent, transparent 50%, #fff 50%, #fff 100%) -7px -8px/16px 16px repeat-x;
+            margin-top: -16px;
+ 
+        }
           .tambola-ticket:after {
-            bottom: -200px;
-            background: radial-gradient(circle, transparent, transparent 50%, #000 50%, #000 100%) -7px -2px/16px 16px repeat-x;
+            bottom: -199px;
+            background: radial-gradient(circle, transparent, transparent 50%, #fff 50%, #fff 100%) -7px -2px/16px 16px repeat-x;
           }
 
         .tambola-number-box {
