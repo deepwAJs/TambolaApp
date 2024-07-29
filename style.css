@@ -108,14 +108,14 @@
             position: absolute;
             left: 5px;
             height: 6px;
-            width: 290px;
+            width: 305px;
           }
           .tambola-ticket:before {
-            top: -5px;
+            /* top: -5px; */
             background: radial-gradient(circle, transparent, transparent 50%, #f000 50%, #000 100%) -7px -8px/16px 16px repeat-x;
           }
           .tambola-ticket:after {
-            bottom: -5px;
+            bottom: -200px;
             background: radial-gradient(circle, transparent, transparent 50%, #000 50%, #000 100%) -7px -2px/16px 16px repeat-x;
           }
 
