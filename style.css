@@ -101,7 +101,7 @@
             padding: 10px;
             border: 0px solid #ddd;
             background: #fbfbfb;
-            box-shadow: 2px 2px 15px 0px #ab9b0d;
+            box-shadow: 2px 2px 15px 0px #dddddd5b;
         }
         .tambola-ticket:before, .tambola-ticket:after {
             content: "";
