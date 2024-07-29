@@ -87,7 +87,7 @@
         .ticket {
             width: 324px;
             padding: 20px;
-            border: 1px solid #000;
+            border: 1px solid #ddd;
             text-align: center;
             font-family: Arial, sans-serif;
         }
