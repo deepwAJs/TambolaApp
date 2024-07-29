@@ -117,10 +117,10 @@
             margin-top: -16px;
  
         }
-          .tambola-ticket:after {
+          /* .tambola-ticket:after {
             bottom: -199px;
             background: radial-gradient(circle, transparent, transparent 50%, #fff 50%, #fff 100%) -7px -2px/16px 16px repeat-x;
-          }
+          } */
 
         .tambola-number-box {
             display: flex;
